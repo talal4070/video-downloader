@@ -5,4 +5,4 @@ builder = "nixpacks"
 startCommand = "gunicorn app:app"
 
 [deploy.healthcheckPath]
-path = "/"
+path = "/health"
